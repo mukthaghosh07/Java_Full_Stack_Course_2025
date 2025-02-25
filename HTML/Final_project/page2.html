@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livetech Registration Form  </title>
+</head>
+<body bgcolor="orange"> 
+<h1> <center> <img src="logo.png" height="35px" width="40px" > LIVETECH ADMISSION FORM </center> </h1>
+<center>
+    <form>
+        <table  bgcolor="white" border="2"  background="grey">
+            <tr>
+                <td><b>Enter your name:</b></td>
+                <td><input type="text" placeholder="Enter your name" required></td>
+            </tr>
+           
+            
+            <tr>
+                <td><b>Batch Date & Time:</b></td>
+                <td><input type="datetime-local"></td>
+            </tr>
+            <tr>
+                <td><b>Month of Registration:</b></td>
+                <td><input type="month"></td>
+            </tr>
+            <tr>
+                <td><b>Upload your Document:</b></td>
+                <td><input type="file" placeholder="Adhar Card, PAN Card" multiple></td>
+            </tr>
+            <tr>
+                <td><b>Upload Photo:</b></td>
+                <td><input type="file" accept=".jpg,.png,.jpeg" required></td>
+            </tr>
+            <tr>
+                <td><b>Enter your Email:</b></td>
+                <td><input type="email" placeholder="use @gmail.com" required></td>
+            </tr>
+            <tr>
+                <td><b>Website or Other Links:</b></td>
+                <td><input type="url" placeholder="https://xxxxxx.com"></td>
+            </tr>
+            <tr>
+               <td> <b>Skills</b></td>
+               <td>
+                <select name="name" multiple>
+                    <option value="q1">Java</option>
+                    <option value="q1">c#</option>
+                    <option value="q1">Python</option>
+                    <option value="q1">Adavance Excel</option>
+                    <option value="q1">C</option>
+
+                </select>
+               </td>
+
+
+            </tr>
+            <tr>
+                <td>
+                    <b>Other Skills: </b>
+                    <td><textarea name="name"  placeholder="Communication, Problem Solving etc..."></textarea></td>
+                </td>
+            </tr>
+            <tr>
+
+                <td><b>Select Gender:</b></td>
+                <td>
+                    <input type="radio" name="gender" required> Male
+                    <input type="radio" name="gender" required> Female
+                    <input type="radio" name="gender" required> Other
+                </td>
+            </tr>
+            <tr>
+                <td><b>Select your Perfer location:</b></td>
+                <td>
+                    <input type="checkbox" name="place1"> Hyderabad
+                    <input type="checkbox" name="place2"> Chennai 
+                    <input type="checkbox" name="place3"> Bengalore 
+                    <input type="checkbox" name="place4"> Mumbai
+                    <input type="checkbox" name="place5"> Goa 
+                </td>
+            </tr>
+            <tr>
+                <td><b>Contact Number:</b></td>
+                <td><input type="tel" pattern="[0-8]{2}-[0-9]{10}" placeholder=" 91-XXXXXXXXXX"></td>
+            </tr>
+            <tr>
+                <td><b>Age:</b></td>
+                <td><input type="text"  placeholder="Enter your age"></td>
+            </tr>
+            <tr>
+                <td><b>Year of Pass out:</b></td>
+                <td>
+                    <input type="radio" name="yop"> 2026 
+                    <input type="radio" name="yop">2025
+                    <input type="radio" name="yop"> 2024
+                    <input type="radio" name="yop"> 2023
+                    <input type="radio" name="yop"> 2022
+                </td>
+            </tr>
+            <tr>
+                <td><b>Mode of Class:</b></td>
+                <td>
+                    <input type="radio" name="cc" required> Online
+                    <input type="radio" name="cc" required> Offline
+                   
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <input type="checkbox" name="agreement" required> Once completed, this form is to be forwarded to the Livetech Institute  Secretary with any clearance application.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   
+                    <a href="page2.html">
+                       <center><button type="button">Register</button></center> 
+                    </a>
+                    <br>
+                    <br>
+                    s
+                </input>
+                   <center> <input type="reset" value="Reset"></center>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+<br>
+<br>
+<br>
+<br>
+    <img src="page2.png" height="250px" width="1080px">
+</center>
+</body>
+</html>
