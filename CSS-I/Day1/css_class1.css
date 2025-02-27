@@ -1,0 +1,15 @@
+h1,p {
+    color: blue;
+    background-color: rgb(233, 189, 11);
+    margin-left: 80px;
+   
+    background-repeat: repeat-x;
+    background-position: center;
+}
+body{
+    background-image: url('Digital_Transformation_Quotes_Theme.png'); 
+                background-repeat: 
+                repeat-x; 
+                background-position: center;
+}
+
