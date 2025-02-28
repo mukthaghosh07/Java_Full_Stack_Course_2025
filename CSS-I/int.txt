@@ -1,1 +1,5 @@
-CSS
+CSS TOPICS: 
+1. DIFFERENT WAYS OF STYLE TAG
+  i) Inline tag
+  ii) Internal tag
+  iii) External tag
