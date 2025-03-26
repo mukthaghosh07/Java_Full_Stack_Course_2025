@@ -11,7 +11,7 @@ Class.forName("com.cj.mysql.jdbc.Driver");
         System.out.println("loading and registering successful....");
 
         // to get connections
-Connection  con= DriverManager.getConnection("jdbc:mysql:localhost/jfs", "root", "amp12345");
+Connection  con= DriverManager.getConnection("jdbc:mysql:localhost/jfs", "root", "password");
 
         // creating a connections
 Statement st= con.createStatement();
