@@ -29,7 +29,7 @@ public class approach2 {
         System.out.println("Loading and registering successfu l....");
 
         // Establishing a connection
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jfs", "root", "amp12345");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jfs", "root", "password");
         System.out.println("Connection established");
 
         // Creating a statement
