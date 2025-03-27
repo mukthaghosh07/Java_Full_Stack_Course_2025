@@ -15,7 +15,7 @@ Connection con;
 ResultSet rs;
 //Class.forName("com.mysql.jdbc.Driver");
 //System.out.println("driver loaded and registered");
-Connection con1 = DriverManager.getConnection("jdbc:mysql://localhost:3306/jfs", "root", "amp12345");
+Connection con1 = DriverManager.getConnection("jdbc:mysql://localhost:3306/jfs", "root", "password");
 System.out.println("Connection established");
 st=con1.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,ResultSet.CONCUR_UPDATABLE);
 rs=st.executeQuery("select * from company");
