@@ -11,7 +11,7 @@ public class batch_update {
 		//Class.forName("com.mysql.jdbc.Driver");
 		System.out.println("driver loaded");
 		
-		Connection con1 = DriverManager.getConnection("jdbc:mysql://localhost:3306/jfs", "root", "amp12345");
+		Connection con1 = DriverManager.getConnection("jdbc:mysql://localhost:3306/jfs", "root", "password");
 		System.out.println("conncetion is created");
 		
 	Statement st=con1.createStatement();
