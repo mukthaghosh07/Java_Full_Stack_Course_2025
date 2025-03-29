@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color:yellow;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        form {
+            background: green;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        input {
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        
+        button {
+            padding: 10px 15px;
+            font-size: 15px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Multiplication Table Generator</h1>
+    <form method="post" action="./user">
+        <label for="number">Enter Number:</label>
+        <input type="number" name="number" required>
+        <button type="submit">Generate</button>
+       
+        
+    </form>
+    
+    <img src="src/main/webapp/WEB-INF/ani.gif" alt="Loading Animation" style="margin-top: 20px; width: 200px; height: auto;">
+</body>
+</html>
