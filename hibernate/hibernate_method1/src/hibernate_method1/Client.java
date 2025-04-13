@@ -10,7 +10,7 @@ public class Client {
         
         conf.setProperty("hibernate.connection.url","jdbc:mysql://localhost:3306/jfs");
         conf.setProperty("hibernate.connection.username","root");
-        conf.setProperty("hibernate.connection.password","10896");
+        conf.setProperty("hibernate.connection.password","password");
         conf.setProperty("hibernate.dialect","org.hibernate.dialect.MySQL5Dialect");
         conf.addFile("employee.hbm.xml");
         
