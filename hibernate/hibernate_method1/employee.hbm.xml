@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 5.3//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="hibernate_method1.Employee" table="myemployee">
+        <id name="eid" column="id" type="java.lang.Integer"/>
+        <property name="ename" column="ename" type="java.lang.String"/>
+    </class>
+</hibernate-mapping>
