@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    
+    <class name="hibernate_first.Credit" table="pnb">
+        <id name="accnum" column="accnum">
+            <generator class="assigned" />
+        </id>
+
+        <property name="Ename" column="name" />
+        <property name="amount" column="amount" />
+    </class>
+
+    <class name="hibernate_first.Debit" table="icici">
+        <id name="accnum" column="accnum">
+            <generator class="assigned" />
+        </id>
+
+        <property name="Ename" column="name" />
+        <property name="amount" column="amount" />
+    </class>
+
+</hibernate-mapping>
