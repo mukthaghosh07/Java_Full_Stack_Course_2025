@@ -14,7 +14,7 @@ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 <value>root</value>
 </property>
 <property name="password">
-<value>amp12345</value>
+<value>password</value>
 </property>
 </bean>
 <bean id="mysessionFactory"
